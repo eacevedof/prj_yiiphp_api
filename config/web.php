@@ -51,6 +51,11 @@ $config = [
         ],
         */
     ],
+    'modules' => [
+        'healthCheck' => [
+            'class' => 'app\modules\healthCheck\controllers\GetHealthCheckController',
+        ],
+    ],
     'params' => $params,
 ];
 
